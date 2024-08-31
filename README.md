@@ -33,15 +33,19 @@ You can run `MainActivity.kt` after and project will start.
 <p>
   There are three main parts.
 </p>
-<p>   
-  First: one is cat information, person can see all information about cats, including a gallery of pictures for every breed.
+<p>  
+  
+  **First**: one is cat information, person can see all information about cats, including a gallery of pictures for every breed.
 </p>
 <p>
-  Second: There is a quiz system, person can choose between three types of quizzes about cats, to see how well they know them. They are "Guess the cat", "Guess the fact", "Left or right cat".<br/>
-  After finishing the quiz, person gets a score of how well they did. They can then publish that to leaderboard which brings us to third part.
+  
+  **Second**: There is a quiz system, person can choose between three types of quizzes about cats, to see how well they know them. <br/>
+  They are "Guess the cat", "Guess the fact", "Left or right cat". After finishing the quiz, person gets a score of how well they did.<br/>
+  They can then publish that to leaderboard which brings us to third part.
 </p>
 <p>
-  Third: User can login with account and see their quiz result history. They can also publish their result to leaderboard to see how well they did compared to others.
+  
+  **Third**: User can login with account and see their quiz result history. They can also publish their result to leaderboard to see how well they did compared to others.
 </p>
 
 ## Features & Technologies 
