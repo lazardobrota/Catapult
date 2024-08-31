@@ -1,3 +1,6 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
@@ -8,6 +11,14 @@ plugins {
     id("androidx.room")
     id("com.google.devtools.ksp")
 }
+
+val keystorePropertiesFile = rootProject.file("keystore.properties")
+
+// Initializes a new Properties() object called keystoreProperties.
+val keystoreProperties = Properties()
+
+// Loads the keystore.properties file into the keystoreProperties object.
+keystoreProperties.load(FileInputStream(keystorePropertiesFile))
 
 android {
     namespace = "com.example.catapult"
@@ -24,6 +35,8 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
+
+        buildConfigField("String", "CAT_API_KEY", "\"${keystoreProperties.getProperty("CAT_API_KEY")}\"")
     }
 
     room {
@@ -49,6 +62,7 @@ android {
     }
     buildFeatures {
         compose = true
+        android.buildFeatures.buildConfig=true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"

@@ -1,5 +1,6 @@
 package com.example.catapult.di
 
+import com.example.catapult.BuildConfig
 import com.example.catapult.cats.network.api.ICatListAPI
 import com.example.catapult.cats.network.api.IResultsAPI
 import com.example.catapult.cats.network.serialization.JsonAndClass
@@ -32,7 +33,7 @@ object ApiModule {
                 val request = it.request().newBuilder()
                     .addHeader(
                         "x-api-key",
-                        "live_Z26o8l5prRJqZJoRO8G8Z6E3Dsq8JyPxgI6NXmLBzrKZ5x3V5vzNLmqYW7CbgZka"
+                        BuildConfig.CAT_API_KEY
                     )
                     .build()
                 it.proceed(request)
