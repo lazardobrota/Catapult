@@ -35,7 +35,7 @@ You can run `MainActivity.kt` after and project will start.
 </p>
 <p>  
   
-  **First**: one is cat information, person can see all information about cats, including a gallery of pictures for every breed.
+  **First**: Person can see all information about cats, including a gallery of pictures for every breed.
 </p>
 <p>
   
