@@ -1,6 +1,6 @@
 # Catapult
 <p>
-  Cat app for android phone that list all (the cutes) races of cats and all information about them. <br/>
+  Cat app for android phone that list all (the cutest) races of cats and all information about them. <br/>
   You can also take a quiz to see how well you know cats and publish it to leaderboard.
 </p>
 
