@@ -39,8 +39,8 @@ You can run `MainActivity.kt` after and project will start.
 </p>
 <p>
   
-  **Second**: There is a quiz system, person can choose between three types of quizzes about cats, to see how well they know them. <br/>
-  They are "Guess the cat", "Guess the fact", "Left or right cat". After finishing the quiz, person gets a score of how well they did.<br/>
+  **Second**: There is a quiz system, person can choose between three types of quizzes about cats, to see how well they know them. 
+  They are "Guess the cat", "Guess the fact", "Left or right cat". After finishing the quiz, person gets a score of how well they did.
   They can then publish that to leaderboard which brings us to third part.
 </p>
 <p>
